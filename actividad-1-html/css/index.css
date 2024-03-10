@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+header,
+footer {
+    background-color: orange;
+}
+
+header h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+a:not(.link) {
+    display: inline-block;
+    text-decoration: none;
+    background-color: chocolate;
+    color: white;
+    padding: .5rem !important;
+}
+
+main {
+    margin: auto;
+    height: 100%;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+#menu li {
+    display: inline;
+}
+
+.receta {
+    margin: auto;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+section :not(:first-child) {
+    padding-top: 1.333rem;
+}
+
+.receta img {
+    max-width: 50%;
+}
+
+#acerca-de, #contacto {
+    margin: 1.5rem;
+}
+
+#acerca-de img {
+    max-width: 240px;
+}
