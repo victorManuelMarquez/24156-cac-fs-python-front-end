@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+main {
+  margin: auto;
+  min-height: calc(100vh - 6.3rem);
+  width: 90%;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: .333rem;
+  text-decoration: none;
+}
+
+a[type="button"] {
+  font-weight: bold;
+  color: white;
+  background-color: chocolate;
+  border-radius: 0.1666rem;
+  margin: 0.5rem;
+}
+
+#menu li,
+.social-bar li {
+  display: inline-block;
+}
+
+header,
+footer {
+  background-color: orange;
+}
+
+#menu a {
+  color: white;
+  background-color: chocolate;
+}
+
+header h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+section > :not(:first-child) {
+  padding-top: 1rem;
+}
+
+.receta a[type="button"] {
+  margin-left: 0 !important;
+}
+
+.tabla {
+  display: table;
+}
+
+.fila {
+  display: table-row;
+}
+
+.celda {
+  display: table-cell;
+  padding: 0.33rem;
+}
+
+.lista {
+  margin-left: 1rem;
+}
