@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cocina de Juan - Regístrese</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./acerca.html">Acerca de</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./registrese.html">Regístrese</a></li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
+            </ul>
+        </nav>
+        <h2>La cocina de Juan</h2>
+    </header>
+    <main>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Formulario de registro</legend>
+                <div>
+                    <label for="campo_nombre">Nombre</label>
+                    <input type="text" id="campo_nombre" name="campo_nombre" placeholder="Ingrese su nombre aquí" required>
+                </div>
+                <div>
+                    <label for="campo_apellido">Apellido</label>
+                    <input type="text" id="campo_apellido" name="campo_apellido" placeholder="Ingrese su apellido aquí" required>
+                </div>
+                <div>
+                    <label for="campo_direccion">Dirección</label>
+                    <input type="text" id="campo_direccion" name="campo_direccion" placeholder="Ingrese su dirección aquí" required>
+                </div>
+                <div>
+                    <label for="campo_ciudad">Ciudad</label>
+                    <input type="text" id="campo_ciudad" required value="C.A.B.A">
+                </div>
+                <div>
+                    <label for="campo_cp">Código Postal</label>
+                    <input type="text" id="campo_cp" name="campo_cp" placeholder="Ingrese su código postal aquí" required>
+                </div>
+                <div>
+                    <label for="campo_fdn">Fecha de Nacimiento (mm/dd/yyy)</label>
+                    <input type="date" name="campo_fdn" id="campo_fdn" required>
+                </div>
+                <br>
+                <div>
+                    <label for="genero">
+                        <span id="genero">Género</span>
+                        <input type="radio" id="hombre" name="genero" value="Hombre" required>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" id="mujer" name="genero" value="Mujer">
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" id="otro" name="genero" value="Otro">
+                        <label for="otro">Otro</label>
+                    </label>
+                </div>
+                <div>
+                    <label for="estudios">
+                        <span id="estudios">Estudios</span>
+                        <input type="checkbox" name="nivel" id="prim" value="Primarios">
+                        <label for="prim">Primarios</label>
+                        <input type="checkbox" name="nivel" id="sec" value="Secundarios">
+                        <label for="sec">Secundarios</label>
+                        <input type="checkbox" name="nivel" id="ter" value="Terciarios">
+                        <label for="ter">Terciarios</label>
+                        <input type="checkbox" name="nivel" id="uni" value="Universitarios">
+                        <label for="uni">Universitarios</label>
+                        <input type="checkbox" name="nivel" id="otro" value="Otro">
+                        <label for="otro">Otro</label>
+                    </label>
+                </div>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <ul class="social-bar">
+            <li><a href="#" class="link"><i class="bi bi-twitter"></a></i></li>
+            <li><a href="#" class="link"><i class="bi bi-facebook"></a></i></li>
+            <li><a href="#" class="link"><i class="bi bi-pinterest"></a></i></li>
+            <li><a href="#" class="link"><i class="bi bi-instagram"></a></i></li>
+            <li><a href="#" class="link"><i class="bi bi-linkedin"></a></i></li>
+        </ul>
+        <a href="#">Derechos reservados @2020</a>
+    </footer>
+</body>
+
+</html>
